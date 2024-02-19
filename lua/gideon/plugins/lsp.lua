@@ -7,6 +7,7 @@ return {
         lspconfig.tsserver.setup {}
         lspconfig.svelte.setup {}
         lspconfig.clangd.setup {}
+        lspconfig.tailwindcss.setup {}
         lspconfig.rust_analyzer.setup {
             -- Server-specific settings. See `:help lspconfig-setup`
             settings = {
@@ -53,8 +54,5 @@ return {
             end,
         })
         
-        vim.diagnostic.config({
-            virtual_text = false;
-        })
     end;
 }
