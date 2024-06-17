@@ -10,5 +10,6 @@ return {
 		"nvim-tree/nvim-web-devicons",
 
 		{ "wakatime/vim-wakatime", lazy = false },
+
 	},
 }
