@@ -5,7 +5,9 @@ return {
 		local lspconfig = require("lspconfig")
 		lspconfig.pyright.setup({})
 		lspconfig.arduino_language_server.setup({})
+		lspconfig.mdx_analyzer.setup({})
 		lspconfig.ts_ls.setup({})
+		lspconfig.gopls.setup({})
 		lspconfig.biome.setup({})
 		lspconfig.lua_ls.setup({
 			on_init = function(client)
