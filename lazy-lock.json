@@ -1,5 +1,4 @@
 {
-  "LazyVim": { "branch": "main", "commit": "a507822c0f67df661d1411f9274a65ca9cc832f5" },
   "LuaSnip": { "branch": "master", "commit": "3732756842a2f7e0e76a7b0487e9692072857277" },
   "catppuccin": { "branch": "main", "commit": "234fc048de931a0e42ebcad675bf6559d75e23df" },
   "cmp-buffer": { "branch": "main", "commit": "b74fab3656eea9de20a9b8116afa3cfc4ec09657" },

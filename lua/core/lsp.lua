@@ -8,17 +8,17 @@ vim.lsp.enable("clangd")
 
 vim.lsp.config("rust_analyzer", {
 	enable = true,
-	settings = {
-		["rust-analyzer"] = {
-			linkedProjects = {
-				"./src-tauri/Cargo.toml",
-				"./Cargo.toml",
-			},
-			procMacro = {
-				enable = false,
-			},
-		},
-	},
+	-- settings = {
+	-- 	["rust-analyzer"] = {
+	-- 		linkedProjects = {
+	-- 			"./src-tauri/Cargo.toml",
+	-- 			"./Cargo.toml",
+	-- 		},
+	-- 		procMacro = {
+	-- 			enable = false,
+	-- 		},
+	-- 	},
+	-- },
 })
 
 vim.lsp.enable("golangci_lint_ls")
